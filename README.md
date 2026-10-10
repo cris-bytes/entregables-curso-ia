@@ -86,6 +86,6 @@ Verificación final: 19 celdas ejecutadas desde un kernel limpio sin errores, 14
 
 ## Estado de la entrega
 
-Proyecto local para pruebas. **No se ha creado ni publicado un repositorio remoto**, según lo solicitado. Los notebooks guía del curso todavía no se han proporcionado: el trabajo es original, pero falta contrastarlo con esas guías. El estudiante graba y sube el video; el enlace se añade en `docs/ENTREGA.md`.
+Repositorio privado del curso: [entregables-curso-ia](https://github.com/cris-bytes/entregables-curso-ia). FinGuía es el primer entregable. Para que el docente pueda revisarlo, debe tener acceso al repositorio. Los notebooks guía del curso todavía no se han proporcionado: el trabajo es original, pero falta contrastarlo con esas guías. El estudiante graba y sube el video; el enlace se añade en `docs/ENTREGA.md`.
 
 El material fue elaborado con asistencia de IA y debe revisarse antes de la entrega académica. No se atribuyen experiencias personales ni observaciones de mercado que no ocurrieron.

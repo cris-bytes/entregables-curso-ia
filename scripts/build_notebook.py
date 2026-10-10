@@ -451,7 +451,7 @@ demo.queue().launch(
 )
 ''')
 md('''
-**Video:** pendiente de grabación y subida por el estudiante. Añadir el enlace en `docs/ENTREGA.md` o adjuntar el archivo en Intu. **GitHub:** pendiente hasta terminar las pruebas y decidir la publicación; no se inventa un enlace de repositorio.
+**Video:** pendiente de grabación y subida por el estudiante. Añadir el enlace en `docs/ENTREGA.md` o adjuntar el archivo en Intu. **GitHub:** [entregables-curso-ia](https://github.com/cris-bytes/entregables-curso-ia) (privado; compartir acceso con el docente).
 ''')
 nb=nbf.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3 (ipykernel)','language':'python','name':'python3'},'language_info':{'name':'python','version':'3.12.14'}})
 nbf.write(nb,ROOT/'FinGuia_RAG_Inversion.ipynb')

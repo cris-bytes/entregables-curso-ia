@@ -17,10 +17,10 @@ La tabla localiza evidencias; no garantiza una calificación. La comparación de
 - Revisar y personalizar el texto del proyecto; verificar la política de uso de IA del curso.
 - Incorporar el enlace de los notebooks guía y contrastar los requisitos específicos cuando esté disponible.
 - Realizar pruebas de uso en el equipo del estudiante.
-- Crear el repositorio de GitHub cuando se decida publicar. Se ha respetado la indicación de mantener el proyecto local por ahora.
+- Dar acceso al docente al repositorio privado antes de entregar el enlace.
 - Grabar y subir el video o adjuntarlo directamente en Intu.
 
-**Repositorio GitHub:** pendiente; no creado.
+**Repositorio GitHub:** https://github.com/cris-bytes/entregables-curso-ia (privado).
 
 **Video:** pendiente de grabación y subida por el estudiante.
 
