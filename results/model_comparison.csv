@@ -1,0 +1,5 @@
+modelo,modo,respondibles,cobertura de anclas (salida final),rechazos indebidos,sustituciones por fragmentos,citas válidas en generación cruda,recall de fuentes citadas (crudo),rechazos correctos sin evidencia,preguntas sin evidencia,mediana segundos
+Qwen 0.5B,extractive,6,1.0,0,0,0,,2,3,0.0012977919832337
+Qwen 0.5B,generative,6,0.6666666666666666,1,3,2,0.25,2,3,1.018690124998102
+Qwen 1.5B,extractive,6,1.0,0,0,0,,2,3,0.027575332991546
+Qwen 1.5B,generative,6,0.8333333333333334,0,0,6,0.9166666666666666,2,3,4.722885499999393

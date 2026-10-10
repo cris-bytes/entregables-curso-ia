@@ -1,0 +1,10 @@
+[
+  {"id":"H01","question":"¿Cómo puedo rebalancear una cartera mediante nuevas aportaciones?","gold_sections":["D02-S3"]},
+  {"id":"H02","question":"¿Una calificación crediticia elimina el riesgo de que el emisor incumpla?","gold_sections":["D04-S2"]},
+  {"id":"H03","question":"¿Cuál es la comisión anual de la cartera ficticia Horizonte B?","gold_sections":["D08-S2"]},
+  {"id":"H04","question":"¿En qué momento de cada mes aplica los aportes el simulador?","gold_sections":["D10-S1"]},
+  {"id":"H05","question":"¿La simulación incluye impuestos y cambios de divisa?","gold_sections":["D10-S2"]},
+  {"id":"H06","question":"¿Cada cuánto revisa el laboratorio los pesos y qué desviación activa un ajuste?","gold_sections":["D08-S3"]},
+  {"id":"H07","question":"¿Cuál es el saldo mínimo exigido para entrar a Horizonte B?","gold_sections":[]},
+  {"id":"H08","question":"¿Quién es el gestor de la cartera Horizonte A?","gold_sections":[]}
+]

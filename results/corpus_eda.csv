@@ -1,0 +1,29 @@
+doc_id,section_id,topic,current,words,characters,duplicate_text
+D01,D01-S1,perfil,True,55,347,False
+D01,D01-S2,perfil,True,56,396,False
+D01,D01-S3,perfil,True,56,370,False
+D02,D02-S1,cartera,True,54,374,False
+D02,D02-S2,cartera,True,56,395,False
+D02,D02-S3,cartera,True,58,399,False
+D03,D03-S1,costes,True,57,370,False
+D03,D03-S2,costes,True,56,361,False
+D03,D03-S3,costes,True,57,400,False
+D04,D04-S1,renta fija,True,56,334,False
+D04,D04-S2,renta fija,True,57,362,False
+D04,D04-S3,renta fija,True,55,408,False
+D05,D05-S1,fondos,True,60,366,False
+D05,D05-S2,fondos,True,60,381,False
+D05,D05-S3,fondos,True,58,371,False
+D06,D06-S1,fraude,True,55,391,False
+D06,D06-S2,fraude,True,58,397,False
+D07,D07-S1,matemáticas,True,59,403,False
+D07,D07-S2,matemáticas,True,61,358,False
+D07,D07-S3,matemáticas,True,57,366,False
+D08,D08-S1,laboratorio,True,75,456,False
+D08,D08-S2,laboratorio,True,71,456,False
+D08,D08-S3,laboratorio,True,75,408,False
+D09,D09-S1,laboratorio,False,69,411,False
+D09,D09-S2,laboratorio,False,66,414,False
+D10,D10-S1,simulación,True,71,435,False
+D10,D10-S2,simulación,True,68,471,False
+D10,D10-S3,simulación,True,71,403,False

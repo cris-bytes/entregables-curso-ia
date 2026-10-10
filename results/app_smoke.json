@@ -1,0 +1,10 @@
+{
+  "http": 200,
+  "generated_answer_with_reference": true,
+  "document_link_http": 200,
+  "desktop_chat": true,
+  "simulator": true,
+  "library": true,
+  "mobile_no_overflow": true,
+  "javascript_errors": []
+}

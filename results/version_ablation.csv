@@ -1,0 +1,5 @@
+id,split,index,obsolete_retrieved,sections,recall,hit,mrr,ndcg,all_evidence
+Q06,val,vigentes,0,D08-S1;D08-S2;D08-S3,1.0,1.0,1.0,1.0,1.0
+Q06,val,sin_filtro,1,D09-S1;D08-S1;D08-S2,1.0,1.0,0.5,0.6309297535714575,1.0
+Q26,test,vigentes,0,D08-S1;D08-S2;D08-S3,1.0,1.0,1.0,1.0,1.0
+Q26,test,sin_filtro,1,D08-S1;D08-S2;D09-S1,1.0,1.0,1.0,1.0,1.0

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "size": 128,
+    "overlap": 12,
+    "method": "dense",
+    "k": 3,
+    "threshold": 0.8337000012397767,
+    "selection": "validación únicamente; recall, MRR, menor k, mayor size, método alfabético",
+    "threshold_selection": "balanced accuracy en val; empate: menos falsas aceptaciones"
+  },
+  "test_answerable_n": 18,
+  "test_recall": 0.9722222222222222,
+  "test_recall_bootstrap95": [
+    0.9166666666666666,
+    1.0
+  ],
+  "test_all_evidence": 0.9444444444444444,
+  "test_mrr": 1.0,
+  "threshold_confusion": [
+    [
+      4,
+      2
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "scope_confusion": [
+    [
+      5,
+      1
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "confusion_order": "filas real [sin respuesta, con respuesta]; columnas predicción [rechazar, aceptar]"
+}

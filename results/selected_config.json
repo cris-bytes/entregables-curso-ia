@@ -1,0 +1,9 @@
+{
+  "size": 128,
+  "overlap": 12,
+  "method": "dense",
+  "k": 3,
+  "threshold": 0.8337000012397767,
+  "selection": "validación únicamente; recall, MRR, menor k, mayor size, método alfabético",
+  "threshold_selection": "balanced accuracy en val; empate: menos falsas aceptaciones"
+}

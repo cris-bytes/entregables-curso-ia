@@ -1,0 +1,408 @@
+[
+  {
+    "id": "Q01",
+    "split": "val",
+    "kind": "literal",
+    "question": "¿Qué es el horizonte temporal de una inversión?",
+    "gold_sections": [
+      "D01-S1"
+    ],
+    "anchors": [
+      "tiempo"
+    ]
+  },
+  {
+    "id": "Q02",
+    "split": "val",
+    "kind": "paráfrasis",
+    "question": "¿Tener varios fondos del mismo sector elimina mi concentración?",
+    "gold_sections": [
+      "D02-S2"
+    ],
+    "anchors": [
+      "sector"
+    ]
+  },
+  {
+    "id": "Q03",
+    "split": "val",
+    "kind": "literal",
+    "question": "¿Por qué afectan tanto las comisiones pequeñas a largo plazo?",
+    "gold_sections": [
+      "D03-S2"
+    ],
+    "anchors": [
+      "capital"
+    ]
+  },
+  {
+    "id": "Q04",
+    "split": "val",
+    "kind": "literal",
+    "question": "¿Qué pasa con el precio de un bono de tasa fija cuando suben las tasas?",
+    "gold_sections": [
+      "D04-S1"
+    ],
+    "anchors": [
+      "perder valor"
+    ]
+  },
+  {
+    "id": "Q05",
+    "split": "val",
+    "kind": "literal",
+    "question": "¿Qué es un ETF?",
+    "gold_sections": [
+      "D05-S1"
+    ],
+    "anchors": [
+      "bolsa"
+    ]
+  },
+  {
+    "id": "Q06",
+    "split": "val",
+    "kind": "vigencia",
+    "question": "¿Cuál es la comisión anual vigente de Horizonte A?",
+    "gold_sections": [
+      "D08-S1"
+    ],
+    "anchors": [
+      "0,30"
+    ]
+  },
+  {
+    "id": "Q07",
+    "split": "val",
+    "kind": "numérica",
+    "question": "¿Cuánto son 1000 al 5 % durante dos años sin aportes?",
+    "gold_sections": [
+      "D07-S3"
+    ],
+    "anchors": [
+      "1102"
+    ]
+  },
+  {
+    "id": "Q08",
+    "split": "val",
+    "kind": "multifuente",
+    "question": "¿Qué es tolerancia al riesgo y qué señales de fraude debo reconocer?",
+    "gold_sections": [
+      "D01-S2",
+      "D06-S1"
+    ],
+    "anchors": [
+      "pérdidas",
+      "garantizadas"
+    ]
+  },
+  {
+    "id": "Q09",
+    "split": "val",
+    "kind": "sin_respuesta",
+    "question": "¿A cuánto cotiza hoy la acción de Apple?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q10",
+    "split": "val",
+    "kind": "sin_respuesta",
+    "question": "¿Cuál es la capital de Noruega?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q11",
+    "split": "val",
+    "kind": "sin_respuesta",
+    "question": "¿Cuánto cobra mi banco por transferencias internacionales?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q12",
+    "split": "val",
+    "kind": "sin_respuesta",
+    "question": "¿Qué impuestos pagaré exactamente por vender mis inversiones?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q13",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "Necesitaré mis ahorros pronto. ¿Por qué importa ese plazo al invertir?",
+    "gold_sections": [
+      "D01-S1"
+    ],
+    "anchors": [
+      "horizonte"
+    ]
+  },
+  {
+    "id": "Q14",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Qué diferencia hay entre capacidad y disposición para asumir pérdidas?",
+    "gold_sections": [
+      "D01-S2"
+    ],
+    "anchors": [
+      "capacidad",
+      "disposición"
+    ]
+  },
+  {
+    "id": "Q15",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "¿Existe una mezcla de acciones y bonos adecuada para todas las personas?",
+    "gold_sections": [
+      "D01-S3"
+    ],
+    "anchors": [
+      "no existe"
+    ]
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Diversificar garantiza que no perderé dinero si cae el mercado?",
+    "gold_sections": [
+      "D02-S1"
+    ],
+    "anchors": [
+      "no garantiza"
+    ]
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "¿Qué significa volver a los pesos objetivo de la cartera?",
+    "gold_sections": [
+      "D02-S3"
+    ],
+    "anchors": [
+      "rebalancear"
+    ]
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Una inversión sin comisión de negociación puede tener otros costes?",
+    "gold_sections": [
+      "D03-S1"
+    ],
+    "anchors": [
+      "otros costes"
+    ]
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "¿Qué debo preguntar sobre los cargos antes de contratar una inversión?",
+    "gold_sections": [
+      "D03-S3"
+    ],
+    "anchors": [
+      "cuándo",
+      "calculan"
+    ]
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Un bono con calificación crediticia está garantizado?",
+    "gold_sections": [
+      "D04-S2"
+    ],
+    "anchors": [
+      "no equivale"
+    ]
+  },
+  {
+    "id": "Q21",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "¿Mantener un bono hasta vencimiento elimina el riesgo de incumplimiento?",
+    "gold_sections": [
+      "D04-S3"
+    ],
+    "anchors": [
+      "no elimina"
+    ]
+  },
+  {
+    "id": "Q22",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Por qué puede diferir el precio de un ETF de su valor liquidativo?",
+    "gold_sections": [
+      "D05-S2"
+    ],
+    "anchors": [
+      "prima",
+      "descuento"
+    ]
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "kind": "literal",
+    "question": "¿Qué documentos debo leer para conocer riesgos y costes de un ETF?",
+    "gold_sections": [
+      "D05-S3"
+    ],
+    "anchors": [
+      "folleto"
+    ]
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "kind": "paráfrasis",
+    "question": "Me prometen ganancias altas garantizadas si envío dinero inmediatamente. ¿Qué señales hay?",
+    "gold_sections": [
+      "D06-S1"
+    ],
+    "anchors": [
+      "alerta"
+    ]
+  },
+  {
+    "id": "Q25",
+    "split": "test",
+    "kind": "numérica",
+    "question": "Con rendimiento nominal del 8 % e inflación del 5 %, ¿cuál es la rentabilidad real?",
+    "gold_sections": [
+      "D07-S2"
+    ],
+    "anchors": [
+      "2,86"
+    ]
+  },
+  {
+    "id": "Q26",
+    "split": "test",
+    "kind": "vigencia",
+    "question": "¿Qué porcentaje de acciones y bonos tiene Horizonte A y cuál es su comisión actual?",
+    "gold_sections": [
+      "D08-S1"
+    ],
+    "anchors": [
+      "40",
+      "60",
+      "0,30"
+    ]
+  },
+  {
+    "id": "Q27",
+    "split": "test",
+    "kind": "numérica",
+    "question": "Si Horizonte A pasa de 40 % a 46 % en acciones, ¿se activa el rebalanceo del laboratorio?",
+    "gold_sections": [
+      "D08-S3"
+    ],
+    "anchors": [
+      "6",
+      "5"
+    ]
+  },
+  {
+    "id": "Q28",
+    "split": "test",
+    "kind": "multifuente",
+    "question": "¿Qué composiciones tienen Horizonte A y Horizonte B?",
+    "gold_sections": [
+      "D08-S1",
+      "D08-S2"
+    ],
+    "anchors": [
+      "40",
+      "60",
+      "80",
+      "20"
+    ]
+  },
+  {
+    "id": "Q29",
+    "split": "test",
+    "kind": "multifuente",
+    "question": "¿Por qué influyen tanto las comisiones como la inflación en mis resultados?",
+    "gold_sections": [
+      "D03-S2",
+      "D07-S1"
+    ],
+    "anchors": [
+      "capital",
+      "poder adquisitivo"
+    ]
+  },
+  {
+    "id": "Q30",
+    "split": "test",
+    "kind": "numérica",
+    "question": "¿Cuánto acumulo con 1000 iniciales y 100 mensuales durante 12 meses a tasa cero?",
+    "gold_sections": [
+      "D10-S3"
+    ],
+    "anchors": [
+      "2200"
+    ]
+  },
+  {
+    "id": "Q31",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Cuál será el precio de Bitcoin el próximo viernes?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q32",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Cuánto vale hoy una acción de Tesla?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q33",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Qué rentabilidad exacta tendrá Horizonte B en 2027?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q34",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Cuál es la contraseña de mi cuenta del banco?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q35",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Quién ganó el mundial de fútbol de 2018?",
+    "gold_sections": [],
+    "anchors": []
+  },
+  {
+    "id": "Q36",
+    "split": "test",
+    "kind": "sin_respuesta",
+    "question": "¿Qué comisión de retiro cobra Horizonte A?",
+    "gold_sections": [],
+    "anchors": []
+  }
+]

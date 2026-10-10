@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+*.mp4
+*.mov
+*.webm
+.jupyter/
+FinGuia_entregable.zip
