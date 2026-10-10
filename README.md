@@ -1,5 +1,7 @@
 # FinGuía · Asesor educativo de inversión con RAG
 
+**Equipo:** X-ray
+
 Un chatbot en español que explica conceptos de inversión con referencias verificables y un simulador de aportes. Funciona localmente, sin claves de API ni servicios pagados.
 
 El caso distingue conceptos de fuentes oficiales, carteras **ficticias** y cálculos hipotéticos. No ejecuta operaciones ni consulta cotizaciones en tiempo real.

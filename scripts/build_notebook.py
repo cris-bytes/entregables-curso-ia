@@ -11,6 +11,8 @@ md('''
 # FinGuía · Un asesor educativo de inversión con RAG
 ### Evidencia documental, evaluación crítica y simulación de aportes
 
+**Equipo:** X-ray
+
 **Caso propio:** una persona que comienza a invertir necesita comprender riesgo, diversificación, costes e inflación. Una respuesta fluida sin respaldo puede confundir una simulación con una promesa o una comisión antigua con una vigente.
 
 **Propuesta:** un chatbot en español que recupera documentos, genera una explicación local con referencias y permite verificar el fragmento original. Un simulador separado calcula escenarios de aportes con fórmulas auditables.

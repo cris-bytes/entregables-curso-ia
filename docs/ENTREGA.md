@@ -1,5 +1,6 @@
 # Entrega del mini proyecto RAG
 
+**Equipo:** X-ray  
 **Caso:** FinGuía, asesor educativo de inversión con fuentes documentales y simulador de aportes.
 
 | Criterio de la rúbrica | Evidencia concreta |
