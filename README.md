@@ -83,9 +83,3 @@ python scripts/smoke_app.py
 Los modelos pequeños pueden equivocarse. El proyecto analiza fallos de recuperación multifuente, mezcla de versiones, cifras intercambiadas y preguntas sin información suficiente. Los supuestos del simulador están documentados en D10 y los escenarios no son pronósticos.
 
 Verificación final: 19 celdas ejecutadas desde un kernel limpio sin errores, 14 pruebas de código aprobadas y prueba de navegador con referencias, enlaces, simulador y vista móvil. Las ocho preguntas adicionales revelaron errores de abstención y citas; están documentados en [la revisión cualitativa](results/qualitative_review.md). Que el programa ejecute no implica que todas sus respuestas sean correctas.
-
-## Estado de la entrega
-
-Repositorio privado del curso: [entregables-curso-ia](https://github.com/cris-bytes/entregables-curso-ia). FinGuía es el primer entregable. Para que el docente pueda revisarlo, debe tener acceso al repositorio. Los notebooks guía del curso todavía no se han proporcionado: el trabajo es original, pero falta contrastarlo con esas guías. El estudiante graba y sube el video; el enlace se añade en `docs/ENTREGA.md`.
-
-El material fue elaborado con asistencia de IA y debe revisarse antes de la entrega académica. No se atribuyen experiencias personales ni observaciones de mercado que no ocurrieron.
