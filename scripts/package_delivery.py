@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 TOP=['README.md','RAG.py','app.py','requirements.txt','requirements-lock-macos-py312.txt',
      'models.lock.json','.gitignore','Iniciar_FinGuia.command','Abrir_Notebook.command',
      'FinGuia_RAG_Inversion.ipynb','FinGuia_RAG_Inversion.html']
-DIRECTORIES=['data','docs','finguia','scripts','tests','results']
+DIRECTORIES=['data','finguia','scripts','tests','results']
 
 def main():
     files=[ROOT/name for name in TOP if (ROOT/name).is_file()]

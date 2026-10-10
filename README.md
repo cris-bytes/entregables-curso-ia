@@ -56,8 +56,6 @@ Las dependencias directas están fijadas en `requirements.txt`; el entorno compl
 | Evaluación reproducible | [finguia/evaluation.py](finguia/evaluation.py) |
 | Simulador y pruebas matemáticas | [finguia/simulator.py](finguia/simulator.py), [tests/test_core.py](tests/test_core.py) |
 | Métricas, respuestas crudas y gráficos | [results](results) |
-| Guion del video de menos de 2 minutos | [docs/VIDEO.md](docs/VIDEO.md) |
-| Mapa de la rúbrica y pendientes | [docs/ENTREGA.md](docs/ENTREGA.md) |
 
 ## Diseño experimental
 
