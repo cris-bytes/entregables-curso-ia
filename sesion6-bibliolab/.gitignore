@@ -7,6 +7,5 @@ __pycache__/
 *.log
 *.zip
 *.mp4
-!video/BiblioLab_demo.mp4
 *.mov
 .env

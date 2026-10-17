@@ -172,12 +172,10 @@ display(Markdown(f"""**Conclusiones apoyadas en esta ejecución:**
 - Una biblioteca ficticia y pequeña favorece control experimental, pero limita la generalización. Harían falta consultas de usuarios, anotadores independientes, fuentes extensas y medición repetida de latencia antes de usarlo en una institución.
 
 **Siguiente mejora:** recuperación semántica para paráfrasis, evaluación humana de fidelidad por afirmación y resolución controlada del historial. El sistema actual ya permite inspeccionar dónde ocurrió un fallo sin ocultar las respuestas originales."""))''')
-md('''## 10. Demo y video de menos de dos minutos
+md('''## 10. Interfaz Gradio
 
-La celda siguiente es independiente: puede ejecutarse en un kernel nuevo después de preparar el entorno. Durante el video debe verse **su ejecución real**, seguida de dos consultas con referencias. Ejemplos: disponibilidad de *Procesamiento de lenguaje natural* y vencimiento para un estudiante con retiro el 2026-10-09. Mostrar el panel de evidencia permite contrastar catálogo, regla y calendario.
-
-El video se adjunta en Intu o se enlaza desde la entrega. El guion y las instrucciones están en `docs/VIDEO.md`. La grabación de demostración, cuando esté generada, se guarda en `video/BiblioLab_demo.mp4`.''')
-code('''# BiblioLab · Grupo X-Ray — ejecutar esta celda durante la grabación
+La celda siguiente inicia la interfaz y puede ejecutarse en un kernel nuevo después de preparar el entorno. Prueba consultas sobre la disponibilidad de *Procesamiento de lenguaje natural* o el vencimiento para un estudiante con retiro el 2026-10-09. El panel de evidencia permite contrastar las respuestas con el catálogo, las reglas y el calendario.''')
+code('''# BiblioLab · Grupo X-Ray — iniciar la interfaz Gradio
 from bibliolab.runtime import ensure_ollama
 from app import build_demo
 ensure_ollama()

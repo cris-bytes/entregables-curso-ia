@@ -8,8 +8,6 @@ Asistente local para una biblioteca universitaria ficticia. Consulta reglamentos
 
 - [Notebook principal](BiblioLab_LangChain.ipynb): problema, EDA, código, experimentos, respuestas y conclusiones.
 - [Notebook en HTML](BiblioLab_LangChain.html): lectura con resultados sin instalar Python.
-- [Guía de entrega](docs/ENTREGA.md) y [video](docs/VIDEO.md).
-- [Video de demostración: 59 segundos](video/BiblioLab_demo.mp4), con ejecución real de Gradio y dos consultas citadas. Grabación sin narración.
 - En este Mac: doble clic en `Abrir_Notebook.command` o `Iniciar_BiblioLab.command`.
 
 ## Qué cambia respecto al proyecto anterior
@@ -88,9 +86,7 @@ No se entrenan pesos. El flujo guiado utiliza reglas explícitas, no selección 
 python -m pytest -q
 ```
 
-La prueba de navegador y grabación requiere dependencias opcionales de `requirements-dev.txt`, Google Chrome instalado y `python -m playwright install ffmpeg`. Los registros de ejecución, pruebas y video permiten distinguir lo verificado de lo pendiente.
-
-Verificación de referencia: **14/14 celdas ejecutadas sin errores, 17 pruebas aprobadas y video de 58,92 segundos**. Ver `results/notebook_execution.json`, `results/environment.json` y `results/video_recording.json`. La [revisión cualitativa](results/qualitative_review.md) documenta falsas abstenciones y errores de interpretación del modelo; estas comprobaciones técnicas no garantizan exactitud de todas sus respuestas.
+Verificación de referencia: **14/14 celdas ejecutadas sin errores y 17 pruebas aprobadas**. Ver `results/notebook_execution.json` y `results/environment.json`. La [revisión cualitativa](results/qualitative_review.md) documenta falsas abstenciones y errores de interpretación del modelo; estas comprobaciones técnicas no garantizan exactitud de todas sus respuestas.
 
 ## Fuentes técnicas
 
