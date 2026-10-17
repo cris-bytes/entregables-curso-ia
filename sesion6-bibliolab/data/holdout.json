@@ -1,0 +1,8 @@
+[
+  {"id":"H01","question":"¿Puedo pedir orientación bibliográfica si soy egresado y cuánto dura?","relevant":["N05-S2"]},
+  {"id":"H02","question":"¿Cuánto antes de mi reserva debo cancelar la sala?","relevant":["N03-S2"]},
+  {"id":"H03","question":"¿Necesito un carné activo y puedo sacar libros si tengo otro vencido?","relevant":["N01-S2"]},
+  {"id":"H04","question":"¿Qué debo entregar con un portátil que presenta fallos?","relevant":["N04-S2"]},
+  {"id":"H05","question":"¿Se cobra por reservar un libro y cuánto tiempo tengo para recogerlo?","relevant":["N02-S2"]},
+  {"id":"H06","question":"¿Puedo devolver un libro en el buzón interior mientras está abierto el edificio?","relevant":["N06-S1"]}
+]

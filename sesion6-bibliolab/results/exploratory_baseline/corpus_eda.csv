@@ -1,0 +1,18 @@
+id,document,topic,words
+N01-S1,Préstamos de libros,prestamos,56
+N01-S2,Préstamos de libros,prestamos,49
+N01-S3,Préstamos de libros,prestamos,41
+N02-S1,Renovación y reservas,renovaciones,48
+N02-S2,Renovación y reservas,renovaciones,45
+N03-S1,Salas de estudio,salas,46
+N03-S2,Salas de estudio,salas,50
+N04-S1,Portátiles,equipos,52
+N04-S2,Portátiles,equipos,35
+N05-S1,Accesibilidad,servicios,48
+N05-S2,Accesibilidad,servicios,32
+N06-S1,Devoluciones y retrasos,devoluciones,49
+N06-S2,Devoluciones y retrasos,devoluciones,45
+N07-S1,Calendario del laboratorio,calendario,51
+N07-S2,Calendario del laboratorio,calendario,50
+N08-S1,Catálogo y alcance del asistente,catalogo,49
+N08-S2,Catálogo y alcance del asistente,catalogo,50

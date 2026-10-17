@@ -1,0 +1,165 @@
+[
+  {
+    "id": "V01",
+    "split": "validacion",
+    "question": "¿Cuántos días puede tener un libro un estudiante?",
+    "relevant": [
+      "N01-S1"
+    ]
+  },
+  {
+    "id": "V02",
+    "split": "validacion",
+    "question": "¿Puedo renovar dos veces?",
+    "relevant": [
+      "N02-S1"
+    ]
+  },
+  {
+    "id": "V03",
+    "split": "validacion",
+    "question": "¿Cuánto dura una reserva de sala?",
+    "relevant": [
+      "N03-S1"
+    ]
+  },
+  {
+    "id": "V04",
+    "split": "validacion",
+    "question": "¿Me puedo llevar el portátil a casa?",
+    "relevant": [
+      "N04-S1"
+    ]
+  },
+  {
+    "id": "V05",
+    "split": "validacion",
+    "question": "¿Hay lector de pantalla?",
+    "relevant": [
+      "N05-S1"
+    ]
+  },
+  {
+    "id": "V06",
+    "split": "validacion",
+    "question": "¿Se paga multa por entregar tarde?",
+    "relevant": [
+      "N06-S2"
+    ]
+  },
+  {
+    "id": "V07",
+    "split": "validacion",
+    "question": "¿A qué hora cierran los viernes?",
+    "relevant": [
+      "N07-S2"
+    ]
+  },
+  {
+    "id": "V08",
+    "split": "validacion",
+    "question": "¿Los libros del catálogo están libres ahora mismo?",
+    "relevant": [
+      "N08-S1"
+    ]
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "question": "Soy docente, ¿cuál es el plazo y cuántos libros puedo sacar?",
+    "relevant": [
+      "N01-S1",
+      "N01-S2"
+    ]
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "question": "¿Puedo ampliar mi préstamo si otra persona espera el libro?",
+    "relevant": [
+      "N02-S1"
+    ]
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "question": "¿Cuánto tiempo guardan un libro que reservé después de avisarme?",
+    "relevant": [
+      "N02-S2"
+    ]
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "question": "Llegué veinte minutos tarde a mi sala, ¿la mantienen?",
+    "relevant": [
+      "N03-S2"
+    ]
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "question": "¿Con cuánta anticipación solicito un capítulo accesible?",
+    "relevant": [
+      "N05-S1"
+    ]
+  },
+  {
+    "id": "T06",
+    "split": "test",
+    "question": "¿Devolver justo en la fecha límite cuenta como atraso?",
+    "relevant": [
+      "N06-S1"
+    ]
+  },
+  {
+    "id": "T07",
+    "split": "test",
+    "question": "Soy egresado: ¿cuántos libros puedo retirar y por cuánto tiempo?",
+    "relevant": [
+      "N01-S1",
+      "N01-S2"
+    ]
+  },
+  {
+    "id": "T08",
+    "split": "test",
+    "question": "¿Puedo estudiar el sábado y llevar a casa un libro de referencia?",
+    "relevant": [
+      "N07-S2",
+      "N01-S3"
+    ]
+  },
+  {
+    "id": "T09",
+    "split": "test",
+    "question": "¿Qué pasa si llevo siete días hábiles de retraso?",
+    "relevant": [
+      "N06-S2"
+    ]
+  },
+  {
+    "id": "T10",
+    "split": "test",
+    "question": "¿Cómo se determina cuántas copias se pueden prestar?",
+    "relevant": [
+      "N08-S1"
+    ]
+  },
+  {
+    "id": "T11",
+    "split": "test",
+    "question": "¿El chatbot puede hacer una reserva por mí?",
+    "relevant": [
+      "N08-S2"
+    ]
+  },
+  {
+    "id": "T12",
+    "split": "test",
+    "question": "¿Puedo usar un portátil y renovarlo por otros cuatro días?",
+    "relevant": [
+      "N04-S1"
+    ]
+  }
+]

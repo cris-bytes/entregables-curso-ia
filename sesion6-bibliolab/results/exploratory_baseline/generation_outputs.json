@@ -1,0 +1,2107 @@
+[
+  {
+    "question": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Un estudiante puede tener hasta 5 libros simultáneamente y estos deben devolverse en 14 días hábiles.",
+    "answer": "Un estudiante puede tener hasta 5 libros simultáneamente y estos deben devolverse en 14 días hábiles.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.133,
+    "id": "E01"
+  },
+  {
+    "question": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Sí, puedes renovar un libro si tiene reservas, pero deberás resolver las reservas primero.",
+    "answer": "Sí, puedes renovar un libro si tiene reservas, pero deberás resolver las reservas primero.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.745,
+    "id": "E02"
+  },
+  {
+    "question": "¿Puedo llevar un portátil a casa?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Sí, puedes llevar tu portátil a casa siempre que no sobrepase el espacio disponible en tu escritorio.",
+    "answer": "Sí, puedes llevar tu portátil a casa siempre que no sobrepase el espacio disponible en tu escritorio.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.224,
+    "id": "E03"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Lo siento, no tengo acceso al catálogo para verificar cuántos ejemplares hay disponibles de libros sobre Procesamiento de Lenguaje Natural.",
+    "answer": "Lo siento, no tengo acceso al catálogo para verificar cuántos ejemplares hay disponibles de libros sobre Procesamiento de Lenguaje Natural.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.084,
+    "id": "E04"
+  },
+  {
+    "question": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Lo siento, no tengo acceso al catálogo para verificar si hay ejemplares disponibles de Visualización con gráficos.",
+    "answer": "Lo siento, no tengo acceso al catálogo para verificar si hay ejemplares disponibles de Visualización con gráficos.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.879,
+    "id": "E05"
+  },
+  {
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La fecha de devolución es comúnmente 14 días después, es decir, 2026-10-23.",
+    "answer": "La fecha de devolución es comúnmente 14 días después, es decir, 2026-10-23.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.006,
+    "id": "E06"
+  },
+  {
+    "question": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Como asistente de biblioteca, no tengo información específica sobre las políticas de devolución de tu biblioteca. Generalmente, se espera una devolución dentro de 2 semanas a partir de la fecha de préstamo.",
+    "answer": "Como asistente de biblioteca, no tengo información específica sobre las políticas de devolución de tu biblioteca. Generalmente, se espera una devolución dentro de 2 semanas a partir de la fecha de préstamo.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.467,
+    "id": "E07"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Procesamiento de lenguaje natural es una área de la inteligencia artificial. La devolución depende de la política de la biblioteca, no de la fecha.",
+    "answer": "Procesamiento de lenguaje natural es una área de la inteligencia artificial. La devolución depende de la política de la biblioteca, no de la fecha.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.131,
+    "id": "E08"
+  },
+  {
+    "question": "¿Cuál es el teléfono de la biblioteca?",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Lo siento, pero como asistente de biblioteca virtual, no tengo información sobre números de teléfono.",
+    "answer": "Lo siento, pero como asistente de biblioteca virtual, no tengo información sobre números de teléfono.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.758,
+    "id": "E09"
+  },
+  {
+    "question": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Lo siento, no tengo acceso a ese detalle específico. No puedo saber quién tiene el libro \"Procesamiento de lenguaje natural\".",
+    "answer": "Lo siento, no tengo acceso a ese detalle específico. No puedo saber quién tiene el libro \"Procesamiento de lenguaje natural\".",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.975,
+    "id": "E10"
+  },
+  {
+    "question": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La devolución debería ser el 2027-06-05 para un plazo de 6 meses.",
+    "answer": "La devolución debería ser el 2027-06-05 para un plazo de 6 meses.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.981,
+    "id": "E11"
+  },
+  {
+    "question": "Reserva una sala a mi nombre para mañana.",
+    "mode": "solo",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Lo siento, pero no tengo acceso para reservar salas. Próximamente podrás hacerlo desde el sistema de reservas de BiblioLab.",
+    "answer": "Lo siento, pero no tengo acceso para reservar salas. Próximamente podrás hacerlo desde el sistema de reservas de BiblioLab.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 1.057,
+    "id": "E12"
+  },
+  {
+    "question": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Un estudiante puede tener hasta 3 libros y estos se prestan por 7 días hábiles.",
+    "answer": "Un estudiante puede tener hasta 3 libros y estos se prestan por 7 días hábiles.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+          "results": [
+            {
+              "id": "N01-S1",
+              "title": "Plazos por perfil",
+              "text": "Los libros de colección general se prestan por 7 días hábiles a estudiantes, 15 días hábiles a docentes y 5 días hábiles a egresados. El día del préstamo no se cuenta. Los días hábiles son de lunes a viernes, excluidos los cierres del calendario del laboratorio. Estos plazos no se aplican a portátiles ni a salas.",
+              "score": 0.298829,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.296117,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N06-S2",
+              "title": "Retrasos",
+              "text": "Por cada día hábil de retraso se suspende el préstamo durante 2 días hábiles, con máximo de 10 días hábiles de suspensión. No hay multas monetarias por retraso en este laboratorio. Los daños y pérdidas requieren revisión humana: este reglamento no fija valores de reposición.",
+              "score": 0.148039,
+              "path": "data/documents/N06.md"
+            }
+          ],
+          "references": [
+            "N01-S1",
+            "N01-S2",
+            "N06-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N01-S2",
+      "N06-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.023,
+    "id": "E01"
+  },
+  {
+    "question": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+          "results": [
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.329012,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N02-S2",
+              "title": "Recogida de reservas",
+              "text": "Una reserva de libro se conserva durante 2 días hábiles desde el aviso de disponibilidad. El día del aviso no se cuenta. Después se libera al siguiente solicitante. No se cobra por reservar. El catálogo es una instantánea de prueba y no contiene reservas personales.",
+              "score": 0.094915,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N08-S2",
+              "title": "Privacidad y operaciones",
+              "text": "El catálogo no contiene nombres, credenciales ni historial de lectores. El asistente permite consultar reglas, buscar títulos y calcular fechas hipotéticas. No crea reservas, no presta libros y no modifica datos. Si se solicita información ausente, como teléfonos, precios o quién tiene un libro, debe reconocer que no está documentada.",
+              "score": 0.077014,
+              "path": "data/documents/N08.md"
+            }
+          ],
+          "references": [
+            "N02-S1",
+            "N02-S2",
+            "N08-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S1",
+      "N02-S2",
+      "N08-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.301,
+    "id": "E02"
+  },
+  {
+    "question": "¿Puedo llevar un portátil a casa?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada. Los portátiles solo se prestan para uso dentro de la biblioteca y no se llevan a casa.",
+    "answer": "No está documentada. Los portátiles solo se prestan para uso dentro de la biblioteca y no se llevan a casa.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Puedo llevar un portátil a casa?",
+          "results": [
+            {
+              "id": "N04-S2",
+              "title": "Reporte de fallos",
+              "text": "Si un portátil presenta un fallo, se debe informar al mostrador y entregar el equipo con su cargador. No se solicita la contraseña personal del usuario. El asistente no diagnostica daños ni asigna cargos económicos.",
+              "score": 0.089772,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.08246,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.075923,
+              "path": "data/documents/N04.md"
+            }
+          ],
+          "references": [
+            "N04-S2",
+            "N01-S3",
+            "N04-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N04-S1",
+      "N04-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.821,
+    "id": "E03"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Hay disponibles según el corte 2026-10-16, los ejemplares se calculan como total menos prestados menos reservados menos consulta en sala.",
+    "answer": "Hay disponibles según el corte 2026-10-16, los ejemplares se calculan como total menos prestados menos reservados menos consulta en sala.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+          "results": [
+            {
+              "id": "N08-S1",
+              "title": "Disponibilidad",
+              "text": "El catálogo de BiblioLab es una instantánea ficticia con corte 2026-10-16. Los ejemplares disponibles para préstamo se calculan como total menos prestados menos reservados menos consulta en sala. Las categorías son excluyentes. Un resultado positivo describe la instantánea y no garantiza que el libro siga libre después del corte.",
+              "score": 0.277213,
+              "path": "data/documents/N08.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.240244,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N08-S1",
+            "N01-S3"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.916,
+    "id": "E04"
+  },
+  {
+    "question": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+          "results": [
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.288012,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N08-S1",
+              "title": "Disponibilidad",
+              "text": "El catálogo de BiblioLab es una instantánea ficticia con corte 2026-10-16. Los ejemplares disponibles para préstamo se calculan como total menos prestados menos reservados menos consulta en sala. Las categorías son excluyentes. Un resultado positivo describe la instantánea y no garantiza que el libro siga libre después del corte.",
+              "score": 0.177302,
+              "path": "data/documents/N08.md"
+            }
+          ],
+          "references": [
+            "N01-S3",
+            "N08-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 0.982,
+    "id": "E05"
+  },
+  {
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "El libro debe devolverse el 2026-10-15, teniendo en cuenta los cierres de la biblioteca.",
+    "answer": "El libro debe devolverse el 2026-10-15, teniendo en cuenta los cierres de la biblioteca.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+          "results": [
+            {
+              "id": "N07-S1",
+              "title": "Cierres y cobertura",
+              "text": "El calendario del laboratorio cubre únicamente 2026-10-01 a 2026-12-31. Además de sábados y domingos, la biblioteca ficticia cierra el 2026-10-12, el 2026-11-02, el 2026-11-16, el 2026-12-08 y el 2026-12-25. Son fechas de simulación declaradas en cierres.csv; no constituyen un calendario oficial de festivos. No se calculan vencimientos fuera del intervalo cubierto.",
+              "score": 0.269738,
+              "path": "data/documents/N07.md"
+            },
+            {
+              "id": "N06-S1",
+              "title": "Devolución de libros",
+              "text": "Los libros se devuelven en el mostrador o en el buzón interior durante el horario de apertura. Un libro entregado el día de su vencimiento no está atrasado. Si el edificio está cerrado en la fecha calculada, la devolución se desplaza al siguiente día hábil del calendario del laboratorio.",
+              "score": 0.15029,
+              "path": "data/documents/N06.md"
+            },
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.140393,
+              "path": "data/documents/N02.md"
+            }
+          ],
+          "references": [
+            "N07-S1",
+            "N06-S1",
+            "N02-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S1",
+      "N06-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.264,
+    "id": "E06"
+  },
+  {
+    "question": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+          "results": [
+            {
+              "id": "N07-S1",
+              "title": "Cierres y cobertura",
+              "text": "El calendario del laboratorio cubre únicamente 2026-10-01 a 2026-12-31. Además de sábados y domingos, la biblioteca ficticia cierra el 2026-10-12, el 2026-11-02, el 2026-11-16, el 2026-12-08 y el 2026-12-25. Son fechas de simulación declaradas en cierres.csv; no constituyen un calendario oficial de festivos. No se calculan vencimientos fuera del intervalo cubierto.",
+              "score": 0.316005,
+              "path": "data/documents/N07.md"
+            },
+            {
+              "id": "N08-S1",
+              "title": "Disponibilidad",
+              "text": "El catálogo de BiblioLab es una instantánea ficticia con corte 2026-10-16. Los ejemplares disponibles para préstamo se calculan como total menos prestados menos reservados menos consulta en sala. Las categorías son excluyentes. Un resultado positivo describe la instantánea y no garantiza que el libro siga libre después del corte.",
+              "score": 0.144714,
+              "path": "data/documents/N08.md"
+            },
+            {
+              "id": "N05-S2",
+              "title": "Acompañamiento",
+              "text": "El acompañamiento para búsquedas bibliográficas dura 30 minutos y se agenda en el mostrador. Está disponible para estudiantes, docentes y egresados. No se exige explicar un diagnóstico médico para solicitar orientación general.",
+              "score": 0.057979,
+              "path": "data/documents/N05.md"
+            }
+          ],
+          "references": [
+            "N07-S1",
+            "N08-S1",
+            "N05-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N05-S2",
+      "N07-S1",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.585,
+    "id": "E07"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "El libro se desplazaría a la próxima fecha hábil si el edificio está cerrado en la fecha calculada. La devolución se realiza durante el horario de apertura.",
+    "answer": "El libro se desplazaría a la próxima fecha hábil si el edificio está cerrado en la fecha calculada. La devolución se realiza durante el horario de apertura.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+          "results": [
+            {
+              "id": "N07-S1",
+              "title": "Cierres y cobertura",
+              "text": "El calendario del laboratorio cubre únicamente 2026-10-01 a 2026-12-31. Además de sábados y domingos, la biblioteca ficticia cierra el 2026-10-12, el 2026-11-02, el 2026-11-16, el 2026-12-08 y el 2026-12-25. Son fechas de simulación declaradas en cierres.csv; no constituyen un calendario oficial de festivos. No se calculan vencimientos fuera del intervalo cubierto.",
+              "score": 0.333,
+              "path": "data/documents/N07.md"
+            },
+            {
+              "id": "N08-S1",
+              "title": "Disponibilidad",
+              "text": "El catálogo de BiblioLab es una instantánea ficticia con corte 2026-10-16. Los ejemplares disponibles para préstamo se calculan como total menos prestados menos reservados menos consulta en sala. Las categorías son excluyentes. Un resultado positivo describe la instantánea y no garantiza que el libro siga libre después del corte.",
+              "score": 0.126924,
+              "path": "data/documents/N08.md"
+            },
+            {
+              "id": "N06-S1",
+              "title": "Devolución de libros",
+              "text": "Los libros se devuelven en el mostrador o en el buzón interior durante el horario de apertura. Un libro entregado el día de su vencimiento no está atrasado. Si el edificio está cerrado en la fecha calculada, la devolución se desplaza al siguiente día hábil del calendario del laboratorio.",
+              "score": 0.110124,
+              "path": "data/documents/N06.md"
+            }
+          ],
+          "references": [
+            "N07-S1",
+            "N08-S1",
+            "N06-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N06-S1",
+      "N07-S1",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.777,
+    "id": "E08"
+  },
+  {
+    "question": "¿Cuál es el teléfono de la biblioteca?",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Cuál es el teléfono de la biblioteca?",
+          "results": [
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.101893,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.093815,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N05-S1",
+              "title": "Formatos accesibles",
+              "text": "La biblioteca ofrece lector de pantalla en dos estaciones y préstamo de lupas de lectura para uso interno. Las solicitudes de digitalización accesible se reciben con 3 días hábiles de anticipación, indicando título y capítulo. El equipo de apoyo confirma la viabilidad; la solicitud no garantiza disponibilidad inmediata.",
+              "score": 0.092041,
+              "path": "data/documents/N05.md"
+            }
+          ],
+          "references": [
+            "N01-S3",
+            "N04-S1",
+            "N05-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N04-S1",
+      "N05-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.312,
+    "id": "E09"
+  },
+  {
+    "question": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+          "results": [
+            {
+              "id": "N08-S2",
+              "title": "Privacidad y operaciones",
+              "text": "El catálogo no contiene nombres, credenciales ni historial de lectores. El asistente permite consultar reglas, buscar títulos y calcular fechas hipotéticas. No crea reservas, no presta libros y no modifica datos. Si se solicita información ausente, como teléfonos, precios o quién tiene un libro, debe reconocer que no está documentada.",
+              "score": 0.199172,
+              "path": "data/documents/N08.md"
+            },
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.055948,
+              "path": "data/documents/N02.md"
+            }
+          ],
+          "references": [
+            "N08-S2",
+            "N02-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S1",
+      "N08-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.061,
+    "id": "E10"
+  },
+  {
+    "question": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "El libro se devolvería el 2027-01-06, ya que si el edificio está cerrado, la devolución se desplaza al siguiente día hábil.",
+    "answer": "El libro se devolvería el 2027-01-06, ya que si el edificio está cerrado, la devolución se desplaza al siguiente día hábil.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+          "results": [
+            {
+              "id": "N06-S1",
+              "title": "Devolución de libros",
+              "text": "Los libros se devuelven en el mostrador o en el buzón interior durante el horario de apertura. Un libro entregado el día de su vencimiento no está atrasado. Si el edificio está cerrado en la fecha calculada, la devolución se desplaza al siguiente día hábil del calendario del laboratorio.",
+              "score": 0.156102,
+              "path": "data/documents/N06.md"
+            },
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.081443,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.060068,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N06-S1",
+            "N02-S1",
+            "N01-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S2",
+      "N02-S1",
+      "N06-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.518,
+    "id": "E11"
+  },
+  {
+    "question": "Reserva una sala a mi nombre para mañana.",
+    "mode": "rag",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [],
+    "outputs": [
+      {
+        "name": "recuperacion_fija",
+        "payload": {
+          "query": "Reserva una sala a mi nombre para mañana.",
+          "results": [
+            {
+              "id": "N03-S1",
+              "title": "Duración y capacidad",
+              "text": "Las salas de estudio admiten de 2 a 6 personas. Cada grupo puede reservar un bloque máximo de 2 horas por día. No se permite unir reservas consecutivas del mismo grupo para ampliar ese límite. La reserva de sala requiere el carné activo de un integrante.",
+              "score": 0.18021,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N03-S2",
+              "title": "Cancelación y tolerancia",
+              "text": "Se debe cancelar una sala con al menos 30 minutos de anticipación. Hay 15 minutos de tolerancia desde el inicio; pasado ese tiempo se libera la sala. La documentación no contiene un calendario de disponibilidad de salas. No se puede confirmar una reserva ni una sala libre desde este chatbot.",
+              "score": 0.179507,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.099794,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N03-S1",
+            "N03-S2",
+            "N01-S3"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N03-S1",
+      "N03-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 1.333,
+    "id": "E12"
+  },
+  {
+    "question": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Un estudiante puede tener hasta 3 libros. No se especifica cuántos días hábiles.",
+    "answer": "Un estudiante puede tener hasta 3 libros. No se especifica cuántos días hábiles.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "cupos estudiante"
+        },
+        "id": "a0b3efcb-e590-4b13-a6e8-d6885511821f"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "cupos estudiante",
+          "results": [
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.151802,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N01-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N01-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 6.219,
+    "id": "E01"
+  },
+  {
+    "question": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado en las fuentes disponibles.",
+    "answer": "No está documentado en las fuentes disponibles.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.404,
+    "id": "E02"
+  },
+  {
+    "question": "¿Puedo llevar un portátil a casa?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado en las fuentes disponibles.",
+    "answer": "No está documentado en las fuentes disponibles.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "portátil"
+        },
+        "id": "8d46070f-15c7-4387-98e8-33e98b43b493"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "portátil",
+          "results": [
+            {
+              "id": "N04-S2",
+              "title": "Reporte de fallos",
+              "text": "Si un portátil presenta un fallo, se debe informar al mostrador y entregar el equipo con su cargador. No se solicita la contraseña personal del usuario. El asistente no diagnostica daños ni asigna cargos económicos.",
+              "score": 0.155489,
+              "path": "data/documents/N04.md"
+            }
+          ],
+          "references": [
+            "N04-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N04-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.91,
+    "id": "E03"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "El Procesamiento de lenguaje natural está disponible en 1 ejemplar según el corte 2026-10-16.",
+    "answer": "El Procesamiento de lenguaje natural está disponible en 1 ejemplar según el corte 2026-10-16.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Procesamiento de lenguaje natural",
+          "corte": "2026-10-16"
+        },
+        "id": "4c9b0317-c86f-4d07-9947-e03931ec8ebd"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Procesamiento de lenguaje natural",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B007",
+              "titulo": "Procesamiento de lenguaje natural",
+              "area": "Datos",
+              "anio": 2025,
+              "total": 4,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 1,
+              "reference": "CAT-B007"
+            }
+          ],
+          "references": [
+            "CAT-B007",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "CAT-B007",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 6.308,
+    "id": "E04"
+  },
+  {
+    "question": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado en las fuentes disponibles que haya ejemplares disponibles de \"Visualización con gráficos\" para el corte 2026-10-16. [CAT-B003] [N08-S1]",
+    "answer": "No está documentado en las fuentes disponibles que haya ejemplares disponibles de \"Visualización con gráficos\" para el corte 2026-10-16. [CAT-B003] [N08-S1]",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Visualización con gráficos"
+        },
+        "id": "ec50270d-1ce4-4ee0-9d93-dd12944dd8f4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Visualización con gráficos",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B003",
+              "titulo": "Visualización con gráficos",
+              "area": "Datos",
+              "anio": 2021,
+              "total": 3,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 0,
+              "reference": "CAT-B003"
+            }
+          ],
+          "references": [
+            "CAT-B003",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "CAT-B003",
+      "N08-S1"
+    ],
+    "cited_references": [
+      "CAT-B003",
+      "N08-S1"
+    ],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 6.451,
+    "id": "E05"
+  },
+  {
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La fecha de devolución para un libro como estudiante es el 2026-10-21.",
+    "answer": "La fecha de devolución para un libro como estudiante es el 2026-10-21.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2026-10-09"
+        },
+        "id": "49d29aed-8061-43a2-b878-73714224c2ed"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "estudiante",
+          "start": "2026-10-09",
+          "business_days": 7,
+          "due_date": "2026-10-21",
+          "counted_dates": [
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21"
+          ],
+          "skipped_dates": [
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-17",
+            "2026-10-18"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 5.575,
+    "id": "E06"
+  },
+  {
+    "question": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "El vencimiento del libro que retuviste el 2026-10-30 es el 2026-11-09.",
+    "answer": "El vencimiento del libro que retuviste el 2026-10-30 es el 2026-11-09.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "egresado",
+          "fecha_retiro": "2026-10-30"
+        },
+        "id": "a8538b6e-93ba-405f-8208-8dbcff9ce0d5"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "egresado",
+          "start": "2026-10-30",
+          "business_days": 5,
+          "due_date": "2026-11-09",
+          "counted_dates": [
+            "2026-11-03",
+            "2026-11-04",
+            "2026-11-05",
+            "2026-11-06",
+            "2026-11-09"
+          ],
+          "skipped_dates": [
+            "2026-10-31",
+            "2026-11-01",
+            "2026-11-02",
+            "2026-11-07",
+            "2026-11-08"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 6.146,
+    "id": "E07"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "[CAT-B007] [N01-S1] [N07-S1]",
+    "answer": "[CAT-B007] [N01-S1] [N07-S1]",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Procesamiento de lenguaje natural"
+        },
+        "id": "bc57cc62-a95a-487a-b20d-4123592f3b02"
+      },
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2026-10-09"
+        },
+        "id": "b22e51d3-fa01-4912-bac9-074ccde9a4a3"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Procesamiento de lenguaje natural",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B007",
+              "titulo": "Procesamiento de lenguaje natural",
+              "area": "Datos",
+              "anio": 2025,
+              "total": 4,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 1,
+              "reference": "CAT-B007"
+            }
+          ],
+          "references": [
+            "CAT-B007",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        },
+        "status": "success"
+      },
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "estudiante",
+          "start": "2026-10-09",
+          "business_days": 7,
+          "due_date": "2026-10-21",
+          "counted_dates": [
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21"
+          ],
+          "skipped_dates": [
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-17",
+            "2026-10-18"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "CAT-B007",
+      "N01-S1",
+      "N07-S1",
+      "N08-S1"
+    ],
+    "cited_references": [
+      "CAT-B007",
+      "N01-S1",
+      "N07-S1"
+    ],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 7.874,
+    "id": "E08"
+  },
+  {
+    "question": "¿Cuál es el teléfono de la biblioteca?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado en las fuentes disponibles.",
+    "answer": "No está documentado en las fuentes disponibles.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.385,
+    "id": "E09"
+  },
+  {
+    "question": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado en las fuentes disponibles.",
+    "answer": "No está documentado en las fuentes disponibles.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.397,
+    "id": "E10"
+  },
+  {
+    "question": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La fecha de retiro solicitada está fuera de la cobertura permitida. Se ha devuelto [N07-S1].",
+    "answer": "La fecha de retiro solicitada está fuera de la cobertura permitida. Se ha devuelto [N07-S1].",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2027-01-05"
+        },
+        "id": "3647d9b5-a8f6-44de-8f78-66168acbefd7"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "error": "Fecha fuera de cobertura: 2026-10-01 a 2026-12-31. No se extrapola el calendario.",
+          "references": [
+            "N07-S1"
+          ]
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N07-S1"
+    ],
+    "cited_references": [
+      "N07-S1"
+    ],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 4.73,
+    "id": "E11"
+  },
+  {
+    "question": "Reserva una sala a mi nombre para mañana.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No puedes reservar, prestar, renovar ni modificar información.",
+    "answer": "No puedes reservar, prestar, renovar ni modificar información.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 0.479,
+    "id": "E12"
+  },
+  {
+    "question": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Un estudiante puede tener hasta 3 libros. Por cada día hábil de retraso se suspende el préstamo durante 2 días hábiles, con un máximo de 10 días hábiles de suspensión. No hay multas monetarias por retraso en este laboratorio. El cupo incluye libros de colección general, pero no reservas aún no recogidas.",
+    "answer": "Un estudiante puede tener hasta 3 libros. Por cada día hábil de retraso se suspende el préstamo durante 2 días hábiles, con un máximo de 10 días hábiles de suspensión. No hay multas monetarias por retraso en este laboratorio. El cupo incluye libros de colección general, pero no reservas aún no recogidas.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+          "results": [
+            {
+              "id": "N01-S1",
+              "title": "Plazos por perfil",
+              "text": "Los libros de colección general se prestan por 7 días hábiles a estudiantes, 15 días hábiles a docentes y 5 días hábiles a egresados. El día del préstamo no se cuenta. Los días hábiles son de lunes a viernes, excluidos los cierres del calendario del laboratorio. Estos plazos no se aplican a portátiles ni a salas.",
+              "score": 0.298829,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.296117,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N06-S2",
+              "title": "Retrasos",
+              "text": "Por cada día hábil de retraso se suspende el préstamo durante 2 días hábiles, con máximo de 10 días hábiles de suspensión. No hay multas monetarias por retraso en este laboratorio. Los daños y pérdidas requieren revisión humana: este reglamento no fija valores de reposición.",
+              "score": 0.148039,
+              "path": "data/documents/N06.md"
+            }
+          ],
+          "references": [
+            "N01-S1",
+            "N01-S2",
+            "N06-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N01-S2",
+      "N06-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 6.414,
+    "id": "E01"
+  },
+  {
+    "question": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Puedo renovar un libro si tiene reservas de otras personas?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+          "results": [
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.329012,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N02-S2",
+              "title": "Recogida de reservas",
+              "text": "Una reserva de libro se conserva durante 2 días hábiles desde el aviso de disponibilidad. El día del aviso no se cuenta. Después se libera al siguiente solicitante. No se cobra por reservar. El catálogo es una instantánea de prueba y no contiene reservas personales.",
+              "score": 0.094915,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N08-S2",
+              "title": "Privacidad y operaciones",
+              "text": "El catálogo no contiene nombres, credenciales ni historial de lectores. El asistente permite consultar reglas, buscar títulos y calcular fechas hipotéticas. No crea reservas, no presta libros y no modifica datos. Si se solicita información ausente, como teléfonos, precios o quién tiene un libro, debe reconocer que no está documentada.",
+              "score": 0.077014,
+              "path": "data/documents/N08.md"
+            }
+          ],
+          "references": [
+            "N02-S1",
+            "N02-S2",
+            "N08-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S1",
+      "N02-S2",
+      "N08-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 4.808,
+    "id": "E02"
+  },
+  {
+    "question": "¿Puedo llevar un portátil a casa?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Puedo llevar un portátil a casa?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Puedo llevar un portátil a casa?",
+          "results": [
+            {
+              "id": "N04-S2",
+              "title": "Reporte de fallos",
+              "text": "Si un portátil presenta un fallo, se debe informar al mostrador y entregar el equipo con su cargador. No se solicita la contraseña personal del usuario. El asistente no diagnostica daños ni asigna cargos económicos.",
+              "score": 0.089772,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.08246,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.075923,
+              "path": "data/documents/N04.md"
+            }
+          ],
+          "references": [
+            "N04-S2",
+            "N01-S3",
+            "N04-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N04-S1",
+      "N04-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 4.149,
+    "id": "E03"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Hay 1 ejemplar disponible según el corte de 2026-10-16. [CAT-B007]",
+    "answer": "Hay 1 ejemplar disponible según el corte de 2026-10-16. [CAT-B007]",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte."
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B007",
+              "titulo": "Procesamiento de lenguaje natural",
+              "area": "Datos",
+              "anio": 2025,
+              "total": 4,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 1,
+              "reference": "CAT-B007"
+            }
+          ],
+          "references": [
+            "CAT-B007",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        }
+      }
+    ],
+    "allowed_references": [
+      "CAT-B007",
+      "N08-S1"
+    ],
+    "cited_references": [
+      "CAT-B007"
+    ],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 3.543,
+    "id": "E04"
+  },
+  {
+    "question": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "¿Hay ejemplares disponibles de Visualización con gráficos?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B003",
+              "titulo": "Visualización con gráficos",
+              "area": "Datos",
+              "anio": 2021,
+              "total": 3,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 0,
+              "reference": "CAT-B003"
+            }
+          ],
+          "references": [
+            "CAT-B003",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        }
+      }
+    ],
+    "allowed_references": [
+      "CAT-B003",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.656,
+    "id": "E05"
+  },
+  {
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La fecha de devolución es el 2026-10-21.",
+    "answer": "La fecha de devolución es el 2026-10-21.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2026-10-09"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "estudiante",
+          "start": "2026-10-09",
+          "business_days": 7,
+          "due_date": "2026-10-21",
+          "counted_dates": [
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21"
+          ],
+          "skipped_dates": [
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-17",
+            "2026-10-18"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.39,
+    "id": "E06"
+  },
+  {
+    "question": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Si retiro un libro el 2026-10-30, debo devolverlo el 2026-11-09.",
+    "answer": "Si retiro un libro el 2026-10-30, debo devolverlo el 2026-11-09.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "egresado",
+          "fecha_retiro": "2026-10-30"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "egresado",
+          "start": "2026-10-30",
+          "business_days": 5,
+          "due_date": "2026-11-09",
+          "counted_dates": [
+            "2026-11-03",
+            "2026-11-04",
+            "2026-11-05",
+            "2026-11-06",
+            "2026-11-09"
+          ],
+          "skipped_dates": [
+            "2026-10-31",
+            "2026-11-01",
+            "2026-11-02",
+            "2026-11-07",
+            "2026-11-08"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 4.016,
+    "id": "E07"
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Procesamiento de lenguaje natural está disponible en el catálogo. La devolución del libro para el estudiante con la fecha de inicio solicitada se realizaría el 2026-10-21.",
+    "answer": "Procesamiento de lenguaje natural está disponible en el catálogo. La devolución del libro para el estudiante con la fecha de inicio solicitada se realizaría el 2026-10-21.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09."
+        },
+        "selection": "regla_explicita"
+      },
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2026-10-09"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B007",
+              "titulo": "Procesamiento de lenguaje natural",
+              "area": "Datos",
+              "anio": 2025,
+              "total": 4,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 1,
+              "reference": "CAT-B007"
+            }
+          ],
+          "references": [
+            "CAT-B007",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        }
+      },
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "estudiante",
+          "start": "2026-10-09",
+          "business_days": 7,
+          "due_date": "2026-10-21",
+          "counted_dates": [
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21"
+          ],
+          "skipped_dates": [
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-17",
+            "2026-10-18"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        }
+      }
+    ],
+    "allowed_references": [
+      "CAT-B007",
+      "N01-S1",
+      "N07-S1",
+      "N08-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 6.457,
+    "id": "E08"
+  },
+  {
+    "question": "¿Cuál es el teléfono de la biblioteca?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Cuál es el teléfono de la biblioteca?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Cuál es el teléfono de la biblioteca?",
+          "results": [
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.101893,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.093815,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N05-S1",
+              "title": "Formatos accesibles",
+              "text": "La biblioteca ofrece lector de pantalla en dos estaciones y préstamo de lupas de lectura para uso interno. Las solicitudes de digitalización accesible se reciben con 3 días hábiles de anticipación, indicando título y capítulo. El equipo de apoyo confirma la viabilidad; la solicitud no garantiza disponibilidad inmediata.",
+              "score": 0.092041,
+              "path": "data/documents/N05.md"
+            }
+          ],
+          "references": [
+            "N01-S3",
+            "N04-S1",
+            "N05-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N04-S1",
+      "N05-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.284,
+    "id": "E09"
+  },
+  {
+    "question": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre."
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+          "results": [
+            {
+              "id": "N08-S2",
+              "title": "Privacidad y operaciones",
+              "text": "El catálogo no contiene nombres, credenciales ni historial de lectores. El asistente permite consultar reglas, buscar títulos y calcular fechas hipotéticas. No crea reservas, no presta libros y no modifica datos. Si se solicita información ausente, como teléfonos, precios o quién tiene un libro, debe reconocer que no está documentada.",
+              "score": 0.199172,
+              "path": "data/documents/N08.md"
+            },
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.055948,
+              "path": "data/documents/N02.md"
+            }
+          ],
+          "references": [
+            "N08-S2",
+            "N02-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S1",
+      "N08-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.054,
+    "id": "E10"
+  },
+  {
+    "question": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "perfil": "estudiante",
+          "fecha_retiro": "2027-01-05"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "error": "Fecha fuera de cobertura: 2026-10-01 a 2026-12-31. No se extrapola el calendario.",
+          "references": [
+            "N07-S1"
+          ]
+        }
+      }
+    ],
+    "allowed_references": [
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.356,
+    "id": "E11"
+  },
+  {
+    "question": "Reserva una sala a mi nombre para mañana.",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentada.",
+    "answer": "No está documentada.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "Reserva una sala a mi nombre para mañana."
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "Reserva una sala a mi nombre para mañana.",
+          "results": [
+            {
+              "id": "N03-S1",
+              "title": "Duración y capacidad",
+              "text": "Las salas de estudio admiten de 2 a 6 personas. Cada grupo puede reservar un bloque máximo de 2 horas por día. No se permite unir reservas consecutivas del mismo grupo para ampliar ese límite. La reserva de sala requiere el carné activo de un integrante.",
+              "score": 0.18021,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N03-S2",
+              "title": "Cancelación y tolerancia",
+              "text": "Se debe cancelar una sala con al menos 30 minutos de anticipación. Hay 15 minutos de tolerancia desde el inicio; pasado ese tiempo se libera la sala. La documentación no contiene un calendario de disponibilidad de salas. No se puede confirmar una reserva ni una sala libre desde este chatbot.",
+              "score": 0.179507,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.099794,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N03-S1",
+            "N03-S2",
+            "N01-S3"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N03-S1",
+      "N03-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.122,
+    "id": "E12"
+  }
+]

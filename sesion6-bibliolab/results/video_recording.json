@@ -1,0 +1,22 @@
+{
+  "file": "video/BiblioLab_demo.mp4",
+  "duration_seconds": 58.92,
+  "real_browser_recording": true,
+  "voiceover": false,
+  "checks": [
+    {
+      "event": "Celda Gradio ejecutada en Jupyter y servidor verificado",
+      "execution_count": 1,
+      "source": "# BiblioLab · Grupo X-Ray — ejecutar esta celda durante la grabación\nfrom bibliolab.runtime import ensure_ollama\nfrom app import build_demo\nensure_ollama()\nif 'demo' in globals():\n    demo.close()\ndemo = build_demo()\ndemo.queue().launch(server_name='127.0.0.1', server_port=7862,\n                    share=False, inline=False, prevent_thread_lock=True)"
+    },
+    {
+      "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles.",
+      "reference_visible": "CAT-B007"
+    },
+    {
+      "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+      "reference_visible": "N07-S1"
+    }
+  ],
+  "wall_seconds": 62.11
+}

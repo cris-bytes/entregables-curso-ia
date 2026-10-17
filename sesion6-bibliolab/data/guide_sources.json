@@ -1,0 +1,21 @@
+{
+  "repository": "Ohtar10/icesi-nlp",
+  "commit": "b68d8d00b33f370557c1264bb171fd4c9467d147",
+  "files": [
+    {
+      "name": "1-herramientas-y-agentes-con-ollama.ipynb",
+      "url": "https://github.com/Ohtar10/icesi-nlp/blob/b68d8d00b33f370557c1264bb171fd4c9467d147/Sesion6/1-herramientas-y-agentes-con-ollama.ipynb",
+      "sha256": "7bec70245bcc5514a42f4d4f2dd7c882960aef00248f8058234c2e0a4877a63d"
+    },
+    {
+      "name": "2-mcp-langchain-ollama.ipynb",
+      "url": "https://github.com/Ohtar10/icesi-nlp/blob/b68d8d00b33f370557c1264bb171fd4c9467d147/Sesion6/2-mcp-langchain-ollama.ipynb",
+      "sha256": "8b0c1c045c6fdd3974df0b07a2b2a6cf565fe28279a74d0008ac5ad38c19eae2"
+    },
+    {
+      "name": "3-chatbot-con-mcp-y-gradio.ipynb",
+      "url": "https://github.com/Ohtar10/icesi-nlp/blob/b68d8d00b33f370557c1264bb171fd4c9467d147/Sesion6/3-chatbot-con-mcp-y-gradio.ipynb",
+      "sha256": "f8d9f84527b1cee2b75c500f47f0939ee9c125722e427c5ef648fe717688d6ed"
+    }
+  ]
+}

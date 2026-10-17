@@ -1,0 +1,33 @@
+id,titulo,area,anio,total,prestados,reservados,consulta_sala,corte,disponibles
+B001,Introducción al análisis de datos,Datos,2019,3,1,0,0,2026-10-16,2
+B002,Python para investigación,Datos,2020,4,2,0,0,2026-10-16,2
+B003,Visualización con gráficos,Datos,2021,3,2,1,0,2026-10-16,0
+B004,Estadística aplicada,Datos,2022,6,1,1,0,2026-10-16,4
+B005,Aprendizaje automático práctico,Datos,2023,2,2,0,0,2026-10-16,0
+B006,Bases de datos relacionales,Datos,2024,3,0,0,1,2026-10-16,2
+B007,Procesamiento de lenguaje natural,Datos,2025,4,2,1,0,2026-10-16,1
+B008,Diseño de experimentos,Datos,2018,5,2,1,0,2026-10-16,2
+B009,Relatos del río,Literatura,2019,6,0,0,0,2026-10-16,6
+B010,La ciudad de papel,Literatura,2020,2,1,0,0,2026-10-16,1
+B011,Voces de la montaña,Literatura,2021,3,2,0,0,2026-10-16,1
+B012,Ensayos sobre la lectura,Literatura,2022,4,0,1,1,2026-10-16,2
+B013,Poesía del bosque,Literatura,2023,5,1,0,0,2026-10-16,4
+B014,Cartas de un viajero,Literatura,2024,6,2,0,0,2026-10-16,4
+B015,Narrativa latinoamericana,Literatura,2025,2,0,0,0,2026-10-16,2
+B016,Taller de escritura,Literatura,2018,3,1,1,0,2026-10-16,1
+B017,Diseño de interfaces,Diseño,2019,4,2,0,0,2026-10-16,2
+B018,Tipografía y composición,Diseño,2020,5,0,0,1,2026-10-16,4
+B019,Color y percepción,Diseño,2021,6,1,0,0,2026-10-16,5
+B020,Métodos de prototipado,Diseño,2022,3,2,1,0,2026-10-16,0
+B021,Investigación con usuarios,Diseño,2023,3,0,0,0,2026-10-16,3
+B022,Accesibilidad digital,Diseño,2024,4,1,0,0,2026-10-16,3
+B023,Diseño de servicios,Diseño,2025,5,2,0,0,2026-10-16,3
+B024,Comunicación visual,Diseño,2018,6,0,1,1,2026-10-16,4
+B025,Fundamentos de biología,Ciencias,2019,2,1,0,0,2026-10-16,1
+B026,Ecología del agua,Ciencias,2020,3,2,0,0,2026-10-16,1
+B027,Física para principiantes,Ciencias,2021,4,0,0,0,2026-10-16,4
+B028,Química cotidiana,Ciencias,2022,5,1,1,0,2026-10-16,3
+B029,Introducción a la astronomía,Ciencias,2023,6,2,0,0,2026-10-16,4
+B030,Matemáticas discretas,Ciencias,2024,2,0,0,1,2026-10-16,1
+B031,Energías renovables,Ciencias,2025,3,1,0,0,2026-10-16,2
+B032,Geología del paisaje,Ciencias,2018,4,2,1,0,2026-10-16,1

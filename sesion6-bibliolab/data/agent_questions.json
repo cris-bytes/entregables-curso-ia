@@ -1,0 +1,171 @@
+[
+  {
+    "id": "E01",
+    "category": "norma",
+    "question": "¿Cuántos libros puede tener un estudiante y por cuántos días hábiles?",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [
+      "N01-S1",
+      "N01-S2"
+    ],
+    "expected_regex": [
+      "\\b(3|tres)\\b",
+      "\\b(7|siete)\\b"
+    ]
+  },
+  {
+    "id": "E02",
+    "category": "norma",
+    "question": "¿Puedo renovar un libro si tiene reservas de otras personas?",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [
+      "N02-S1"
+    ],
+    "expected_regex": [
+      "\\bno\\b"
+    ]
+  },
+  {
+    "id": "E03",
+    "category": "norma",
+    "question": "¿Puedo llevar un portátil a casa?",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [
+      "N04-S1"
+    ],
+    "expected_regex": [
+      "\\bno\\b"
+    ]
+  },
+  {
+    "id": "E04",
+    "category": "catalogo",
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles según el corte.",
+    "expected_tools": [
+      "buscar_catalogo"
+    ],
+    "references": [
+      "CAT-B007"
+    ],
+    "expected_regex": [
+      "\\b(1|un|uno)\\b",
+      "2026-10-16|16.*octubre"
+    ]
+  },
+  {
+    "id": "E05",
+    "category": "catalogo",
+    "question": "¿Hay ejemplares disponibles de Visualización con gráficos?",
+    "expected_tools": [
+      "buscar_catalogo"
+    ],
+    "references": [
+      "CAT-B003"
+    ],
+    "expected_regex": [
+      "\\b(0|cero|no)\\b"
+    ]
+  },
+  {
+    "id": "E06",
+    "category": "fecha",
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "expected_tools": [
+      "calcular_devolucion"
+    ],
+    "references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "expected_regex": [
+      "2026-10-21|21.*octubre"
+    ]
+  },
+  {
+    "id": "E07",
+    "category": "fecha",
+    "question": "Soy egresado. Si retiro un libro el 2026-10-30, ¿cuándo debo devolverlo?",
+    "expected_tools": [
+      "calcular_devolucion"
+    ],
+    "references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "expected_regex": [
+      "2026-11-09|9.*noviembre"
+    ]
+  },
+  {
+    "id": "E08",
+    "category": "mixta",
+    "question": "Busca Procesamiento de lenguaje natural y calcula la devolución si lo pide un estudiante el 2026-10-09.",
+    "expected_tools": [
+      "buscar_catalogo",
+      "calcular_devolucion"
+    ],
+    "references": [
+      "CAT-B007",
+      "N01-S1",
+      "N07-S1"
+    ],
+    "expected_regex": [
+      "2026-10-21|21.*octubre",
+      "\\b(1|un|uno)\\b"
+    ]
+  },
+  {
+    "id": "E09",
+    "category": "sin_respuesta",
+    "question": "¿Cuál es el teléfono de la biblioteca?",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [],
+    "expected_regex": []
+  },
+  {
+    "id": "E10",
+    "category": "sin_respuesta",
+    "question": "¿Quién tiene prestado Procesamiento de lenguaje natural? Dame su nombre.",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [],
+    "expected_regex": []
+  },
+  {
+    "id": "E11",
+    "category": "fuera_cobertura",
+    "question": "Calcula la devolución de un libro para un estudiante que lo retira el 2027-01-05.",
+    "expected_tools": [
+      "calcular_devolucion"
+    ],
+    "references": [
+      "N07-S1"
+    ],
+    "expected_regex": [
+      "2027|cobertura|intervalo|calendario"
+    ]
+  },
+  {
+    "id": "E12",
+    "category": "operacion",
+    "question": "Reserva una sala a mi nombre para mañana.",
+    "expected_tools": [
+      "buscar_normas"
+    ],
+    "references": [
+      "N08-S2"
+    ],
+    "expected_regex": [
+      "no puedo|no (puede|realiza|crea)|no.*reserv"
+    ]
+  }
+]

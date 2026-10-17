@@ -1,0 +1,7 @@
+id,recall,mrr,complete,citations,raw_answer
+H01,1.0,1.0,1,[],"Sí, puedo pedir orientación bibliográfica como egresado. El acompañamiento para búsquedas bibliográficas dura 30 minutos y se puede solicitar en el mostrador, para estudiantes, docentes y egresados. No se requiere explicar un diagnóstico médico para solicitar orientación general."
+H02,1.0,1.0,1,[],No está documentado.
+H03,1.0,1.0,1,[],"No está documentado si necesito un carné activo para sacar libros, solo se menciona que es necesario para préstamos y no tener préstamos vencidos."
+H04,1.0,1.0,1,[],"Con un portátil que presenta fallos, se debe informar al mostrador y entregar el equipo con su cargador."
+H05,1.0,1.0,1,[],No está documentado cuánto tiempo tengo para recoger un libro reservado ni si se cobra por hacerlo.
+H06,1.0,1.0,1,[],No está documentado. La pregunta no se responde con los datos proporcionados.

@@ -1,0 +1,386 @@
+[
+  {
+    "question": "¿Puedo pedir orientación bibliográfica si soy egresado y cuánto dura?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Sí, puedo pedir orientación bibliográfica como egresado. El acompañamiento para búsquedas bibliográficas dura 30 minutos y se puede solicitar en el mostrador, para estudiantes, docentes y egresados. No se requiere explicar un diagnóstico médico para solicitar orientación general.",
+    "answer": "Sí, puedo pedir orientación bibliográfica como egresado. El acompañamiento para búsquedas bibliográficas dura 30 minutos y se puede solicitar en el mostrador, para estudiantes, docentes y egresados. No se requiere explicar un diagnóstico médico para solicitar orientación general.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Puedo pedir orientación bibliográfica si soy egresado y cuánto dura?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Puedo pedir orientación bibliográfica si soy egresado y cuánto dura?",
+          "results": [
+            {
+              "id": "N05-S2",
+              "title": "Acompañamiento",
+              "text": "El acompañamiento para búsquedas bibliográficas dura 30 minutos y se agenda en el mostrador. Está disponible para estudiantes, docentes y egresados. No se exige explicar un diagnóstico médico para solicitar orientación general.",
+              "score": 0.342422,
+              "path": "data/documents/N05.md"
+            },
+            {
+              "id": "N02-S1",
+              "title": "Renovación",
+              "text": "Se permite una sola renovación por el mismo plazo original cuando el libro no está vencido y no tiene reservas de otras personas. La renovación se solicita antes de la fecha de devolución. Una segunda renovación no está permitida. El asistente no realiza renovaciones; solamente explica la regla.",
+              "score": 0.095163,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.089538,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N05-S2",
+            "N02-S1",
+            "N01-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S2",
+      "N02-S1",
+      "N05-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 5.836,
+    "id": "H01"
+  },
+  {
+    "question": "¿Cuánto antes de mi reserva debo cancelar la sala?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado.",
+    "answer": "No está documentado.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Cuánto antes de mi reserva debo cancelar la sala?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Cuánto antes de mi reserva debo cancelar la sala?",
+          "results": [
+            {
+              "id": "N03-S2",
+              "title": "Cancelación y tolerancia",
+              "text": "Se debe cancelar una sala con al menos 30 minutos de anticipación. Hay 15 minutos de tolerancia desde el inicio; pasado ese tiempo se libera la sala. La documentación no contiene un calendario de disponibilidad de salas. No se puede confirmar una reserva ni una sala libre desde este chatbot.",
+              "score": 0.379165,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N02-S2",
+              "title": "Recogida de reservas",
+              "text": "Una reserva de libro se conserva durante 2 días hábiles desde el aviso de disponibilidad. El día del aviso no se cuenta. Después se libera al siguiente solicitante. No se cobra por reservar. El catálogo es una instantánea de prueba y no contiene reservas personales.",
+              "score": 0.234866,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N03-S1",
+              "title": "Duración y capacidad",
+              "text": "Las salas de estudio admiten de 2 a 6 personas. Cada grupo puede reservar un bloque máximo de 2 horas por día. No se permite unir reservas consecutivas del mismo grupo para ampliar ese límite. La reserva de sala requiere el carné activo de un integrante.",
+              "score": 0.217865,
+              "path": "data/documents/N03.md"
+            }
+          ],
+          "references": [
+            "N03-S2",
+            "N02-S2",
+            "N03-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N02-S2",
+      "N03-S1",
+      "N03-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.473,
+    "id": "H02"
+  },
+  {
+    "question": "¿Necesito un carné activo y puedo sacar libros si tengo otro vencido?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado si necesito un carné activo para sacar libros, solo se menciona que es necesario para préstamos y no tener préstamos vencidos.",
+    "answer": "No está documentado si necesito un carné activo para sacar libros, solo se menciona que es necesario para préstamos y no tener préstamos vencidos.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Necesito un carné activo y puedo sacar libros si tengo otro vencido?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Necesito un carné activo y puedo sacar libros si tengo otro vencido?",
+          "results": [
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.370942,
+              "path": "data/documents/N01.md"
+            },
+            {
+              "id": "N03-S1",
+              "title": "Duración y capacidad",
+              "text": "Las salas de estudio admiten de 2 a 6 personas. Cada grupo puede reservar un bloque máximo de 2 horas por día. No se permite unir reservas consecutivas del mismo grupo para ampliar ese límite. La reserva de sala requiere el carné activo de un integrante.",
+              "score": 0.159076,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.12395,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N01-S2",
+            "N03-S1",
+            "N01-S3"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S2",
+      "N01-S3",
+      "N03-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.177,
+    "id": "H03"
+  },
+  {
+    "question": "¿Qué debo entregar con un portátil que presenta fallos?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Con un portátil que presenta fallos, se debe informar al mostrador y entregar el equipo con su cargador.",
+    "answer": "Con un portátil que presenta fallos, se debe informar al mostrador y entregar el equipo con su cargador.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Qué debo entregar con un portátil que presenta fallos?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Qué debo entregar con un portátil que presenta fallos?",
+          "results": [
+            {
+              "id": "N04-S2",
+              "title": "Reporte de fallos",
+              "text": "Si un portátil presenta un fallo, se debe informar al mostrador y entregar el equipo con su cargador. No se solicita la contraseña personal del usuario. El asistente no diagnostica daños ni asigna cargos económicos.",
+              "score": 0.517683,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.224037,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N01-S1",
+              "title": "Plazos por perfil",
+              "text": "Los libros de colección general se prestan por 7 días hábiles a estudiantes, 15 días hábiles a docentes y 5 días hábiles a egresados. El día del préstamo no se cuenta. Los días hábiles son de lunes a viernes, excluidos los cierres del calendario del laboratorio. Estos plazos no se aplican a portátiles ni a salas.",
+              "score": 0.106193,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N04-S2",
+            "N04-S1",
+            "N01-S1"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N04-S1",
+      "N04-S2"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 3.01,
+    "id": "H04"
+  },
+  {
+    "question": "¿Se cobra por reservar un libro y cuánto tiempo tengo para recogerlo?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado cuánto tiempo tengo para recoger un libro reservado ni si se cobra por hacerlo.",
+    "answer": "No está documentado cuánto tiempo tengo para recoger un libro reservado ni si se cobra por hacerlo.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Se cobra por reservar un libro y cuánto tiempo tengo para recogerlo?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Se cobra por reservar un libro y cuánto tiempo tengo para recogerlo?",
+          "results": [
+            {
+              "id": "N02-S2",
+              "title": "Recogida de reservas",
+              "text": "Una reserva de libro se conserva durante 2 días hábiles desde el aviso de disponibilidad. El día del aviso no se cuenta. Después se libera al siguiente solicitante. No se cobra por reservar. El catálogo es una instantánea de prueba y no contiene reservas personales.",
+              "score": 0.3007,
+              "path": "data/documents/N02.md"
+            },
+            {
+              "id": "N03-S1",
+              "title": "Duración y capacidad",
+              "text": "Las salas de estudio admiten de 2 a 6 personas. Cada grupo puede reservar un bloque máximo de 2 horas por día. No se permite unir reservas consecutivas del mismo grupo para ampliar ese límite. La reserva de sala requiere el carné activo de un integrante.",
+              "score": 0.161882,
+              "path": "data/documents/N03.md"
+            },
+            {
+              "id": "N01-S2",
+              "title": "Cupos y requisitos",
+              "text": "Un estudiante puede tener hasta 3 libros, un docente hasta 6 y un egresado hasta 2. Se requiere carné activo y no tener préstamos vencidos. El cupo incluye libros de colección general, pero no reservas aún no recogidas. El chatbot informa requisitos; no puede activar carnés ni modificar préstamos.",
+              "score": 0.137505,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N02-S2",
+            "N03-S1",
+            "N01-S2"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S2",
+      "N02-S2",
+      "N03-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.867,
+    "id": "H05"
+  },
+  {
+    "question": "¿Puedo devolver un libro en el buzón interior mientras está abierto el edificio?",
+    "mode": "guiado",
+    "model": "qwen2.5:3b",
+    "raw_answer": "No está documentado. La pregunta no se responde con los datos proporcionados.",
+    "answer": "No está documentado. La pregunta no se responde con los datos proporcionados.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "buscar_normas",
+        "args": {
+          "consulta": "¿Puedo devolver un libro en el buzón interior mientras está abierto el edificio?"
+        },
+        "selection": "regla_explicita"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_normas",
+        "payload": {
+          "query": "¿Puedo devolver un libro en el buzón interior mientras está abierto el edificio?",
+          "results": [
+            {
+              "id": "N06-S1",
+              "title": "Devolución de libros",
+              "text": "Los libros se devuelven en el mostrador o en el buzón interior durante el horario de apertura. Un libro entregado el día de su vencimiento no está atrasado. Si el edificio está cerrado en la fecha calculada, la devolución se desplaza al siguiente día hábil del calendario del laboratorio.",
+              "score": 0.409338,
+              "path": "data/documents/N06.md"
+            },
+            {
+              "id": "N04-S1",
+              "title": "Uso de portátiles",
+              "text": "Los portátiles se prestan exclusivamente a estudiantes y docentes por un máximo de 4 horas, para uso dentro de la biblioteca. No se llevan a casa ni se renuevan. El préstamo incluye cargador y se debe devolver al mismo mostrador. Los plazos de libros en días hábiles no aplican a estos equipos.",
+              "score": 0.135715,
+              "path": "data/documents/N04.md"
+            },
+            {
+              "id": "N01-S3",
+              "title": "Consulta en sala",
+              "text": "Los ejemplares de referencia y los marcados como consulta en sala no salen de la biblioteca. Pueden leerse dentro del edificio durante el horario de atención. Que un título exista en el catálogo no significa que tenga ejemplares disponibles para llevar.",
+              "score": 0.129764,
+              "path": "data/documents/N01.md"
+            }
+          ],
+          "references": [
+            "N06-S1",
+            "N04-S1",
+            "N01-S3"
+          ],
+          "notice": "La coincidencia temática no demuestra que la respuesta esté documentada."
+        }
+      }
+    ],
+    "allowed_references": [
+      "N01-S3",
+      "N04-S1",
+      "N06-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 2.798,
+    "id": "H06"
+  }
+]

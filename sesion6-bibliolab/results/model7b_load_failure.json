@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5:7b",
+  "stage": "warmup",
+  "result": "httpx.ReadTimeout after 120 seconds; Ollama aborted model loading",
+  "hardware": "Apple M3; reported GPU memory 5.3 GiB",
+  "decision": "Use 1.5B and 3B; no successful 7B answers or quality metrics claimed"
+}

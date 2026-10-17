@@ -1,0 +1,133 @@
+[
+  {
+    "question": "¿Puedo llevar un portátil a casa?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "Para verificar esto necesitaría tu perfil en la biblioteca ficticia. Puedes proporcionarlo para que lo consulte.",
+    "answer": "Para verificar esto necesitaría tu perfil en la biblioteca ficticia. Puedes proporcionarlo para que lo consulte.",
+    "calls": [],
+    "outputs": [],
+    "allowed_references": [],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 9.901
+  },
+  {
+    "question": "Busca Procesamiento de lenguaje natural y dime cuántos ejemplares hay disponibles.",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "[CAT-B007] Hay 1 ejemplar disponible para \"Procesamiento de lenguaje natural\" en el corte 2026-10-16.",
+    "answer": "[CAT-B007] Hay 1 ejemplar disponible para \"Procesamiento de lenguaje natural\" en el corte 2026-10-16.",
+    "calls": [
+      {
+        "name": "buscar_catalogo",
+        "args": {
+          "consulta": "Procesamiento de lenguaje natural"
+        },
+        "id": "dc92bac0-111b-4649-b8f5-9155cadab719"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "buscar_catalogo",
+        "payload": {
+          "query": "Procesamiento de lenguaje natural",
+          "corte": "2026-10-16",
+          "matches": [
+            {
+              "id": "B007",
+              "titulo": "Procesamiento de lenguaje natural",
+              "area": "Datos",
+              "anio": 2025,
+              "total": 4,
+              "prestados": 2,
+              "reservados": 1,
+              "consulta_sala": 0,
+              "corte": "2026-10-16",
+              "disponibles": 1,
+              "reference": "CAT-B007"
+            }
+          ],
+          "references": [
+            "CAT-B007",
+            "N08-S1"
+          ],
+          "notice": "Instantánea ficticia; no disponibilidad en tiempo real. Sin coincidencias no prueba que el título no exista."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "CAT-B007",
+      "N08-S1"
+    ],
+    "cited_references": [
+      "CAT-B007"
+    ],
+    "invalid_references": [],
+    "citation_warning": null,
+    "error": null,
+    "seconds": 4.97
+  },
+  {
+    "question": "Soy estudiante. Si pido un libro el 2026-10-09, ¿cuál es la fecha de devolución?",
+    "mode": "agente",
+    "model": "qwen2.5:3b",
+    "raw_answer": "La fecha de devolución para un libro como estudiante es el 2026-10-21.",
+    "answer": "La fecha de devolución para un libro como estudiante es el 2026-10-21.\n\n**Revisión necesaria:** El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "calls": [
+      {
+        "name": "calcular_devolucion",
+        "args": {
+          "fecha_retiro": "2026-10-09",
+          "perfil": "estudiante"
+        },
+        "id": "bf265c77-ad43-452a-b006-e8fa9b0acae4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "calcular_devolucion",
+        "payload": {
+          "profile": "estudiante",
+          "start": "2026-10-09",
+          "business_days": 7,
+          "due_date": "2026-10-21",
+          "counted_dates": [
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21"
+          ],
+          "skipped_dates": [
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-17",
+            "2026-10-18"
+          ],
+          "references": [
+            "N01-S1",
+            "N07-S1"
+          ],
+          "notice": "Cálculo hipotético de préstamo de libro; no registra una operación."
+        },
+        "status": "success"
+      }
+    ],
+    "allowed_references": [
+      "N01-S1",
+      "N07-S1"
+    ],
+    "cited_references": [],
+    "invalid_references": [],
+    "citation_warning": "El modelo omitió las citas. Consulta la evidencia antes de usar su respuesta.",
+    "error": null,
+    "seconds": 5.292
+  }
+]

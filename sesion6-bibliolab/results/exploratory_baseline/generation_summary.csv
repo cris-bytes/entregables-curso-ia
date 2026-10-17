@@ -1,0 +1,5 @@
+mode,runtime_ok,all_expected_tools,expected_citation_recall,content_checks_pass,seconds
+solo,1.0,0.0,0.0,0.4,1.0366666666666666
+rag,1.0,0.0,0.0,0.5,1.7410833333333333
+agente,1.0,0.6666666666666666,0.3,0.8,4.073166666666666
+guiado,1.0,1.0,0.1,0.6,3.937416666666667

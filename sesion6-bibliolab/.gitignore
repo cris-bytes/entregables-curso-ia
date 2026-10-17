@@ -1,0 +1,12 @@
+.venv/
+.runtime/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.zip
+*.mp4
+!video/BiblioLab_demo.mp4
+*.mov
+.env

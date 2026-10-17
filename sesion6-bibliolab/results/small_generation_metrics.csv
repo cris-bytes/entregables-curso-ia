@@ -1,0 +1,13 @@
+id,category,mode,model,seconds,runtime_ok,tool_recall,all_expected_tools,expected_citation_recall,citation_ids_valid,content_checks_pass,abstention,citation_warning
+E01,norma,guiado,qwen2.5:1.5b,2.302,1,1.0,1,0.0,0,0.0,1,1
+E02,norma,guiado,qwen2.5:1.5b,2.07,1,1.0,1,0.0,0,1.0,1,1
+E03,norma,guiado,qwen2.5:1.5b,1.915,1,1.0,1,0.0,0,1.0,1,1
+E04,catalogo,guiado,qwen2.5:1.5b,1.772,1,1.0,1,0.0,0,0.0,1,1
+E05,catalogo,guiado,qwen2.5:1.5b,1.707,1,1.0,1,0.0,0,1.0,1,1
+E06,fecha,guiado,qwen2.5:1.5b,2.268,1,1.0,1,0.0,0,1.0,0,1
+E07,fecha,guiado,qwen2.5:1.5b,2.082,1,1.0,1,0.0,0,1.0,0,1
+E08,mixta,guiado,qwen2.5:1.5b,3.397,1,1.0,1,0.0,0,0.0,1,1
+E09,sin_respuesta,guiado,qwen2.5:1.5b,1.907,1,1.0,1,,0,,1,1
+E10,sin_respuesta,guiado,qwen2.5:1.5b,1.883,1,1.0,1,,0,,1,1
+E11,fuera_cobertura,guiado,qwen2.5:1.5b,1.695,1,1.0,1,0.0,0,0.0,1,1
+E12,operacion,guiado,qwen2.5:1.5b,1.887,1,1.0,1,0.0,0,0.0,1,1
